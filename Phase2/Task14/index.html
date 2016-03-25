@@ -42,9 +42,10 @@
   [6,'六']
   ];
   var aqiList = document.getElementById('aqi-list');
-  for (var i = 0; i<aqiData.length; i++) {
+  for (var i = 0,k = 0; i<aqiData.length; i++) {
         if(aqiData[i][1]>=60){
-            content = content + "<li>第" + (num[i][1]) + "名:" + aqiData[i][0] + "," + aqiData[i][1] + "</li>";
+          content = content + "<li>第" + (num[k][1]) + "名:" + aqiData[i][0] + "," + aqiData[i][1] + "</li>";
+          k++;
         }
     };
     aqiList.innerHTML = content;

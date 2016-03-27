@@ -33,18 +33,11 @@
   */
 
   var content = " ";
-  var num = [
-  [1,'一'],
-  [2,'二'],
-  [3,'三'],
-  [4,'四'],
-  [5,'五'],
-  [6,'六']
-  ];
+  var num = ['一','二','三','四','五','六'];
   var aqiList = document.getElementById('aqi-list');
   for (var i = 0,k = 0; i<aqiData.length; i++) {
         if(aqiData[i][1]>=60){
-          content = content + "<li>第" + (num[k][1]) + "名:" + aqiData[i][0] + "," + aqiData[i][1] + "</li>";
+          content = content + "<li>第" + num[k] + "名:" + aqiData[i][0] + "," + aqiData[i][1] + "</li>";
           k++;
         }
     };

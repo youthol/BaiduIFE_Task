@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body,div,img,h1,h2,h3,p{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	padding:20px;
+	font-family: "MicroSoft YaHei";
+}
+img{
+	width:80px;
+	height:80px;
+}
+.container{
+	min-width: 600px;
+	background: #eee;
+	padding:20px;
+	border:1px solid #999;
+	margin:0 auto;
+	overflow: auto;
+}
+.left{
+	float: left;
+	width:178px;
+	border:1px solid #999;
+	padding:20px 10px;
+	background: #fff;
+}
+.left .team-logo{
+	width:80px;
+	height:80px;
+	float: left;
+	margin-right: 8px;
+	border:1px solid #999;
+}
+.left .team-name{
+	float: left;
+}
+.left .team-name h2{
+	font-size: 14px;
+}
+.middle{
+	border:1px solid #999;
+	background: #fff;
+	padding:20px;
+	margin-left:220px;
+	margin-right:140px;
+}
+.right{
+	float:right;
+	background: #fff;
+	border:1px solid #999;
+	padding:20px 20px 0;
+}
+.right .member-logo{
+	width:80px;
+	height:80px;
+	margin-bottom: 20px;
+	border:1px solid #999;
+}
+.middle h1{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.middle h2{
+	font-size: 18px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,500 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.clearfix{
+	clear: both;
+}
+.nav{
+	width: 100%;
+	height: 56px;
+	border-bottom: 1px solid #dfdedd;
+	min-width: 1280px;
+}
+.nav .img{
+	height: 56px;
+	float: left;
+	margin-left: 59px;
+	line-height: 56px;
+	font-size: 21px;
+	font-family: "黑体";
+}
+.nav .img img{
+	vertical-align: middle;
+}
+.nav .navs{
+	/*margin-left: 520px;*/
+	float: right;
+	margin-right: 65px;
+}
+.nav .navs ul li{
+	list-style: none;
+	float: left;
+	padding: 16px 21px 19px 21px; 
+}
+.nav .navs ul li:hover{
+	border-bottom: 3px solid #e74f4d;
+}
+.nav .navs ul li a{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	color: #787b83;
+}
+.nav .navs ul .active{
+	border-bottom: 3px solid #e74f4d;
+}
+.nav .navs ul .active a{
+	color: #e74f4d;
+}
+.nav .navs ul .login img{
+	margin-top: 2px;
+	margin-right: 5px;
+	float: left;
+}
+.nav .navs ul .login a{
+	display: block;
+	float: left;
+}
+.banner{
+	width: 100%;
+	min-width: 1280px;
+	min-height: 690px;
+	background: url(../images/banner.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.banner .title{
+	margin-top: 226px;
+	margin-left: 140px;
+	color: #ffffff;
+}
+.banner .title h1{
+	font-size: 60px;
+	font-family: "Microsoft Yahei";
+	font-weight: normal;
+}
+.banner .subtitle{
+	font-size: 21px;
+	color: #fffdfd;
+	margin-top: 20px;
+	margin-left: 145px;
+	line-height: 29px;
+	color: #fffdfd;
+}
+.banner .button{
+	margin-top: 66px;
+	margin-left: 126px;
+	cursor: pointer;
+}
+.banner .button button{
+	width: 333px;
+	height: 65px;
+	background-color: #e74f4d;
+	border: 0;
+}
+.banner .button button a{
+	text-align: center;
+	color: #fff;
+	font-family: "Microsoft Yahei";
+	font-size: 30px;
+}
+.figure{
+	overflow: hidden;
+	min-width: 1280px;
+}
+.figure .con{
+	width: 25%;
+	float: left;
+	height: 250px;
+}
+.figure .con .icon{
+	text-align: center;
+	margin-top: 45px;
+}
+.figure .con .text{
+	margin-top: 46px;
+	height: 53px;
+	text-align: center;
+	border-right: 2px solid #aba6a5;
+	font-family: "黑体";
+	font-size: 14px;
+	color: #767777;
+	/*font-weight: bold;*/
+}
+.figure .con .no-border{
+	border: 0;
+}
+.pic{
+	width: 100%;
+	min-width: 1280px;
+	height: 360px;
+	background-color: #ededec;
+	overflow: hidden;
+}
+.pic .book{
+	margin-top: 90px;
+	text-align: center;
+}
+.pic .booktext{
+	margin-top: 47px;
+	text-align: center;
+	font-family: "黑体";
+	font-size: 54px;
+	color: #323333;
+}
+.map{
+	width: 100%;
+	min-width: 1280px;
+	min-height: 341px;
+	background: url(../images/map.jpg) no-repeat;
+	background-size: cover; 
+	overflow: hidden;
+}
+.map .mapcon1{
+	margin-top: 55px;
+	text-align: center;
+	color: #fff;
+	font-size: 21px;
+	font-family: "Microsoft Yahei";
+}
+.map .mapcon2{
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+}
+.map .select{
+	width: 1030px;
+	margin: 50px auto auto auto;
+}
+.map .select select{
+	width: 236px;
+	height: 36px;
+	float: left;
+}
+.map .select select:nth-child(2){
+	margin-left: 27px;
+}
+.map .select select:nth-child(3){
+	margin-left: 27px;
+}
+.map .select select:focus{
+	border: 1px solid red;
+}
+.map .select button{
+	width: 236px;
+	height: 36px;
+	float: left;
+	margin-left: 26px;
+	background-color: #be4e48;
+	color: #fff;
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+.activity{
+	min-width: 1280px;
+	height: 605px;
+	background-color: #f7f7f7;
+	overflow: hidden;
+}
+.activity .event{
+	width: 986px;
+	margin: 100px auto auto auto;
+}
+.activity .event .events{
+	width: 217px;
+	height: 398px;
+	margin-right: 36px;
+	float: left;
+	font-family: "Microsoft Yahei";
+}
+.activity .event .events:nth-child(4){
+	margin-right: 0;
+}
+.activity .event .events .img{
+	width: 196px;
+	height: 320px;
+	padding: 11px 10px 12px 8px;
+	border: 1px solid #d9d5d4;
+}
+.activity .event .events .bigfont{
+	color: #5c5653;
+	margin-top: 12px;
+}
+.activity .event .events .smallfont{
+	font-size: 12px;
+	margin-top: 10px;
+	color: #7f7773;
+}
+.activity .event .events .bigbigfont{
+	font-size: 30px;
+	color: #323333;
+	margin-top: 20px;
+}
+.newworld{
+	width: 100%;
+	min-width: 1280px;
+	overflow: hidden;
+}
+.newworld .img{
+	width: 66%;
+	/*min-height: 565px;*/
+	/*background: url(../images/newworld.jpg) no-repeat;*/
+	/*background-size: cover;*/
+	float: left;
+}
+.newworld .text{
+	width: 33%;
+	float: left;
+	padding: 154px 0 0 0;
+	font-family: "宋体";
+	color: #aaaaaa;
+	line-height: 2em;
+}
+.newworld .text .title{
+	font-family: "Microsoft Yahei";
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #000;
+}
+.newworld .text p:nth-child(2){
+	margin-top: 32px;
+}
+.newworld .text p:nth-child(5){
+	text-indent: 3.3em;
+}
+.newworld .text .button{
+	width: 106px;
+	height: 35px;
+	margin: 40px auto 0 auto;
+	text-align: center;
+	border: 1px solid #e8817c;
+	color: #e8817c;
+	cursor: pointer;
+}
+.newworld .circle{
+	width: 65px;
+	margin: 23px auto 0 auto;
+}
+.newworld .circle ul li{
+	width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid #999;
+    display: inline-block;
+    margin: 0px 2px;
+}
+.newworld .circle ul li.active{
+	background-color: #929292;
+}
+.newus{
+	min-width: 1280px;
+	overflow: hidden;
+}
+.newus .con{
+	width: 33%;
+	/*min-width: 435px;*/
+	height: 523px;
+	float: left;
+}
+.newus .bg1{
+	background-color: #e74f4d;
+}
+.newus .con .title{
+	margin-top: 173px;
+}
+.newus .con .subtitle{
+	margin-top: 5px;
+}
+.newus .bg1 p,.newus .bg2 p{
+	font-family: "黑体";
+	font-size: 21px;
+	color: #fff;
+}
+.newus .bg1 .button{
+	width: 174px;
+	height: 43px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	line-height: 43px;
+	cursor: pointer;
+}
+.newus .bg1 .button:hover{
+	background: #fff;
+	color: red;
+}
+.newus .bg2 p{
+	color: #000;
+}
+.newus .bg2 .button{
+	width: 174px;
+	height: 43px;
+	margin: 0 auto;
+	text-align: center;
+	color: #e74f4d;
+	border: 1px solid #e74f4d;
+	line-height: 43px;
+	cursor: pointer;
+}
+.newus .bg2 .button:hover{
+	background: #e74f4d;
+	color: #000;
+}
+.newus .bg3 img{
+	max-height: 523px;
+}
+.joinus{
+	width: 100%;
+	min-width: 1280px;
+	padding: 120px 0 160px 0;
+	overflow: hidden;
+}
+.joinus .con{
+	width: 1000px;
+	margin: 0 auto;
+}
+.joinus .con p:nth-child(1){
+	font-family: "黑体";
+	font-size: 21px;
+	color: #323333;
+}
+.joinus .con p:nth-child(2){
+	font-family: "黑体";
+	font-size: 21px;
+	color: #ea695f;
+}
+.joinus .con p:nth-child(3),.joinus .con p:nth-child(4),.joinus .con .form .lefttext{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #aaaaaa;
+}
+.joinus .con .form{
+	margin-top: 102px;
+	overflow: hidden;
+}
+.joinus .con .lefttext{
+	width: 290px;
+	float: left;
+}
+.joinus .con .form .lefttext p:nth-child(1){
+	font-family: "黑体";
+	font-size: 14px;
+	color: #231815;
+}
+.joinus .con .form .lefttext p:nth-child(3){
+	font-family: "宋体";
+	font-size: 12px;
+	color: #231815;
+}
+.joinus .lefttext .title{
+	font-family: "黑体";
+	font-size: 14px;
+	color: #231815;
+}
+.joinus .lefttext .co{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #f2a99a;
+}
+.joinus .righttext{
+	float: left;
+	margin-left: 42px;
+}
+.joinus .righttext input{
+	display: inline-block;
+	float: left;
+	margin-bottom: 15px;
+}
+.joinus .righttext .name,.joinus .righttext .age{
+	width: 310px;
+	height: 14px;
+	padding: 13px 0 13px 15px;
+	background-color: #ededee;
+	border: 0px;
+}
+.joinus .righttext .age{
+	margin-left: 10px;
+}
+.joinus .righttext textarea{
+	width: 642px;
+	height: 105px;
+	background-color: #ededee;
+	padding: 13px 0 0 15px;
+	resize:none;
+	margin-bottom: 15px;
+}
+.joinus .righttext input[type='submit']{
+	width: 99%;
+	height: 40px;
+	cursor: pointer;
+}
+.contactus{
+	width: 100%;
+	min-width: 1280px;
+	background-color: #32353e;
+	overflow: hidden;
+}
+.contactus .contact{
+	font-family: "黑体";
+	font-size: 21px;
+	color: #fff;
+	margin-top: 95px;
+	line-height: 36px;
+}
+.contactus .con{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #fff;
+	line-height: 20px;
+}
+.contactus .form{
+	width: 515px;
+	margin: 0 auto;
+}
+.contactus .form input[type='email']{
+	width: 430px;
+	height: 41px;
+	border: 0;
+	display: block;
+	float: left;
+}
+.contactus .form input[type='submit']{
+	width: 85px;
+	height: 41px;
+	border: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+.contactus .icon{
+	margin-top: 34px;
+}
+.contactus .icon p img{
+	margin: 0 15px;
+}
+.footer{
+	width: 100%;
+	min-width: 1280px;
+	height: 59px;
+	background-color: #2f3038;
+	overflow: hidden;
+}
+.footer .copy,.footer .top{
+	margin-top: 27px;
+	margin-left: 99px;
+	float: left;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #fff;
+}
+.footer .top{
+	float: right;
+	margin-right: 35px;
+}
